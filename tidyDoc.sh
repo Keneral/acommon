@@ -15,7 +15,7 @@ prebuiltsFour="prebuiltsFour/"
 prebuiltsFive="prebuiltsFive/"
 
 prebuiltsToolsRoot="prebuilts/tools/"
-prebuiltsToolsOne="prebuiltsToolsOne"
+prebuiltsToolsOne="prebuiltsToolsOne/"
 
 mvFunction() {
   if [ -d "$1"  ]; then   #root  doc
