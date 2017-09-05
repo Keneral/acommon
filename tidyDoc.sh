@@ -17,8 +17,6 @@ prebuiltsFive="prebuiltsFive/"
 prebuiltsToolsRoot="prebuilts/tools/"
 prebuiltsToolsOne="prebuiltsToolsOne/"
 
-vendorRoot="vendor/"
-vendorOne="vendorOne/"
 
 mvFunction() {
   if [ -d "$1"  ]; then   #root  doc
@@ -44,4 +42,3 @@ mvFunction "$prebuiltsRoot" "$prebuiltsThree"
 mvFunction "$prebuiltsRoot" "$prebuiltsFour"
 mvFunction "$prebuiltsRoot" "$prebuiltsFive"
 mvFunction "$prebuiltsToolsRoot" "$prebuiltsToolsOne"
-mvFunction "$vendorRoot" "$vendorOne"
